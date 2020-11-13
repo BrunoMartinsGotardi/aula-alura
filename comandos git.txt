@@ -1,9 +1,26 @@
  ~ ~ COMANDOS GIT ~ ~ 
 
-cd (Diretório Dejado) -- Navegar entre arquivos do computador.
-git init -- Iniciar repositório.
-git status -- Verificar status de tudo.
-git add (nome do arquivo) -- Adicionar o projeto para ser monitorado.
-git add . -- Usando ponto inclui todos os arquivos de uma vez.
-git rm (nome do arquivo) -- Usado para remover o arquivo para parar de ser monitorado.
-git commit -m -- Usado para criar um comentario, o "-m" indica uma mensagem.
+ls : Olhar local onde esta e todos os diretórios.
+cd (Diretório Dejado) : entrar arquivos do computador.
+git init : Iniciar repositório.
+git status :  Verificar status de tudo.
+git add (nome do arquivo) : Adicionar o projeto para ser monitorado.
+git add . : Usando ponto inclui todos os arquivos de uma vez.
+git rm (nome do arquivo) : Usado para remover o arquivo para parar de ser monitorado.
+git commit -m : Usado para criar um comentario, o "-m" indica uma mensagem.
+git log : Mostra todos os commits feitos. Mudanças etc.
+git config --local : podemos modificar ou visualizar configurações para cada projeto.
+git config --global : podemos modificar ou visualizar configurações para a maquina toda.
+git config --local user.name "Nome do autor do commit" : grava nome do autor do commit somente para aquele projeto
+git log --oneline : mesma coisa do log mas de forma resumida, mostrando apenas em uma linha.
+git log -p : mesma coisa do log mas de forma mais detalhada, mostrando tudo.
+mkdir "nome da pasta" : criando uma nova pasta
+git init --bare : bare significa que o repositorio é puro, um repositorio que só contem as alterações dos arquivos.
+git remote : lista todos os repositórios remotos que o repositório local conhece.
+git remote add nomedorepositorio : cria um repositório remoto.
+git remote -v : mostra o local do repositório.
+git clone caminhodorepositório: Faz com que traga os dados que estão no repositório que foi passado. 
+git push nomedorepositorio master: empurra os dados do master para o repositório desejado.
+
+QUANDO QUISER IGNORAR UM ARQUIVO, CRIAR UM ARQUIVO ".gitignore" E ESCREVER NELE O NOME DO ARQUIVO QUE QUER IGNORAR.
+E PARA IGNORAR PASTAS VOCÊ ESCREVE NESTE ARQUIVO "nome da pasta"/ USAR BARRA EM SEGUIDA QUANDO FOR PASTA.
