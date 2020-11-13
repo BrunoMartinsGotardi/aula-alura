@@ -21,6 +21,9 @@ git remote add nomedorepositorio : cria um repositório remoto.
 git remote -v : mostra o local do repositório.
 git clone caminhodorepositório: Faz com que traga os dados que estão no repositório que foi passado. 
 git push nomedorepositorio master: empurra os dados do master para o repositório desejado.
+git pull nomedorepositorio master: pega os dados de um repositório remoto e trás.
+
+BRANCH : MASTER
 
 QUANDO QUISER IGNORAR UM ARQUIVO, CRIAR UM ARQUIVO ".gitignore" E ESCREVER NELE O NOME DO ARQUIVO QUE QUER IGNORAR.
 E PARA IGNORAR PASTAS VOCÊ ESCREVE NESTE ARQUIVO "nome da pasta"/ USAR BARRA EM SEGUIDA QUANDO FOR PASTA.
