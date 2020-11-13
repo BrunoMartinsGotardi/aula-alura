@@ -1,0 +1,9 @@
+ ~ ~ COMANDOS GIT ~ ~ 
+
+cd (Diretório Dejado) -- Navegar entre arquivos do computador.
+git init -- Iniciar repositório.
+git status -- Verificar status de tudo.
+git add (nome do arquivo) -- Adicionar o projeto para ser monitorado.
+git add . -- Usando ponto inclui todos os arquivos de uma vez.
+git rm (nome do arquivo) -- Usado para remover o arquivo para parar de ser monitorado.
+git commit -m -- Usado para criar um comentario, o "-m" indica uma mensagem.
